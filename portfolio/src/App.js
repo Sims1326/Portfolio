@@ -10,16 +10,16 @@ import Footer from "./Components/footer";
 function App() {
   return (
    
-    <div>
-      <NavbarComponent></NavbarComponent>
+    <>
+      <NavbarComponent/>
     <Row>
-    <BioText></BioText>
-    <Col><GameLibraryCard appName="Game Library" tech="Javascript"></GameLibraryCard></Col>
-    <Col><GameLibraryCard appName="Credit Credit" tech="Python, SQL"></GameLibraryCard></Col>
-    <Col><GameLibraryCard appName="Revelry" tech="Some C lnaguage"></GameLibraryCard></Col>
+    <BioText/>
+    <Col><GameLibraryCard appName="Game Library" tech="Javascript"/></Col>
+    <Col><GameLibraryCard appName="Credit Credit" tech="Python, SQL"/></Col>
+    <Col><GameLibraryCard appName="Revelry" tech="Some C lnaguage"/></Col>
     </Row>
-    <Footer></Footer>
-    </div>
+    <Footer/>
+    </>
     );
 }
 

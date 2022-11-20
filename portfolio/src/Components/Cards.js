@@ -1,13 +1,13 @@
-import { Card, Button, Row, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
-function GameLibraryCard(props){
+function GameLibraryCard({appName, tech}){
     return(
         <Card bg="info" border="dark">
             <Card.Body>
                 <Card.Img src="../public/linkedin.png"/>
-                <Card.Title>{props.appName}
+                <Card.Title>{appName}
                 </Card.Title>
-                <Card.Subtitle>{props.tech}</Card.Subtitle>
+                <Card.Subtitle>{tech}</Card.Subtitle>
             </Card.Body>
         </Card>
     );
