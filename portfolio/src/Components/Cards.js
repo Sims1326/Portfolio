@@ -1,16 +1,15 @@
 import { Card } from "react-bootstrap";
 
-function GameLibraryCard({appName, tech}){
-    return(
-        <Card bg="info" border="dark">
-            <Card.Body>
-                <Card.Img src="../public/linkedin.png"/>
-                <Card.Title>{appName}
-                </Card.Title>
-                <Card.Subtitle>{tech}</Card.Subtitle>
-            </Card.Body>
-        </Card>
-    );
+function GameLibraryCard({ appName, tech, appImg, imgAlt }) {
+  return (
+    <Card as="a" href="/">
+      <Card.Img variant="top" src={appImg} alt={imgAlt} />
+      <Card.Body>
+        <Card.Title>{appName}</Card.Title>
+        <Card.Subtitle>{tech}</Card.Subtitle>
+      </Card.Body>
+    </Card>
+  );
 }
 
 export default GameLibraryCard;
