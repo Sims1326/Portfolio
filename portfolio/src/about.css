@@ -1,0 +1,28 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background-image: linear-gradient(
+    to left,
+    var(--main-blue),
+    var(--main-sky-blue)
+  );
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  padding-left: 150px;
+  padding-right: 150px;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+.footer {
+  height: fit-content;
+  display: flex;
+}
+
+.text-white {
+  display: flex;
+  justify-content: start;
+  flex: 1;
+  color: white;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
